@@ -4,5 +4,6 @@
   "description": "Projeto do Botcamp da Impulso Network",
   "main": "index.js",
   "author": "Jaderson Brandão",
-  "license": "MPL-2.0"
+  "license": "MPL-2.0",
+  "dependencies": {}
 }
