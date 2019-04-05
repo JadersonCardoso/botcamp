@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-const BtnBotCamp = styled.button`
+const BtnBotCamp = styled.button.attrs({
+        children: props => props.content
+})`
         width: 280px;
         height: 50px;
         border-radius: 25px;
@@ -11,8 +13,6 @@ const BtnBotCamp = styled.button`
         margin-top: 500px;
         left: 47px;
         right:48px;
-
-
 `
 
 export default BtnBotCamp
