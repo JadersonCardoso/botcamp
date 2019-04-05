@@ -9,9 +9,6 @@ const LogoBotcamp = styled.img.attrs({
         width: 248px;
         height: 39px;
         object-fit: contain;
-        position: relative;
-        top: 63px;
-        left: 64px;
         
 `
 export default LogoBotcamp
