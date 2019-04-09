@@ -6,8 +6,6 @@ const LogoutBotcamp = styled.img.attrs({
     src: logout,
     alt: 'Icon logout chat'
 })`
-    width: 30px;
-    height: 30px;
-    object-fit: contain;
+    
 `
 export default LogoutBotcamp
