@@ -1,7 +1,16 @@
 import React from 'react'
 
+import LogoChat from '../../components/LogoChat';
+import IconLogout from '../../components/IconLogout';
+import HeaderChat from '../../components/HeaderChat';
+
 const Chat = () => (
-    <h1>CHAT</h1>
+    <>
+        <HeaderChat >
+            <LogoChat />
+            <IconLogout />
+        </HeaderChat>
+   </> 
 )
 
 export default Chat
