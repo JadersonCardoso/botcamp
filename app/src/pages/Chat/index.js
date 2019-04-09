@@ -1,14 +1,14 @@
 import React from 'react'
 
 import LogoutBotcamp from '../../components/LogoutBotcamp';
-import HeaderChat from '../../components/HeaderChat';
+import HeaderWrapper from '../../components/HeaderWrapper';
 import LogoBotcamp from '../../components/LogoBotcamp'
 const Chat = () => (
     <>
-        <HeaderChat >
+        <HeaderWrapper >
             <LogoBotcamp />
             <LogoutBotcamp />
-        </HeaderChat>
+        </HeaderWrapper>
    </> 
 )
 
