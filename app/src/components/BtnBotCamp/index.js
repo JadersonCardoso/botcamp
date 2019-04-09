@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 const BtnBotCamp = styled.button.attrs({
-        children: props => props.content
+        children: props => props.content,
+        renderAs: {}
 })`
         width: 280px;
         height: 50px;
@@ -13,12 +14,3 @@ const BtnBotCamp = styled.button.attrs({
 `
 
 export default BtnBotCamp
-// import React from 'react'
-
-// import './style.css'
-
-// const BtnBotCamp = () => (
-//         <button className='btn-botcamp'>Entrar</button>
-// )
-
-// export default BtnBotCamp
